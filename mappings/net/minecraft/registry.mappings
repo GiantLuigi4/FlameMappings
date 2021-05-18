@@ -1,0 +1,13 @@
+net/minecraft/class_2348 : net/minecraft/registry/DefaultedRegistry
+
+net/minecraft/class_2378 : net/minecraft/registry/BuiltinRegistries
+m-(Lnet/minecraft/class_2378;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; : method_10226->register
+f-net/minecraft/class_2348 : field_11145->ENTITIES
+f-net/minecraft/class_2378 : field_11137->TILE_ENTITIES
+f-net/minecraft/class_2348 : field_11146->BLOCKS
+f-net/minecraft/class_2348 : field_11142->ITEMS
+
+net/minecraft/class_2246 : net/minecraft/registry/BlockRegistry
+m-(Ljava/lang/String;Lnet/minecraft/class_2248;)Lnet/minecraft/class_2248; : method_9492->register
+f-net/minecraft/class_2248 : field_10340->STONE_BLOCK
+f-net/minecraft/class_2248 : field_10124->AIR

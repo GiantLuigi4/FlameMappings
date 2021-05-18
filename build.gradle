@@ -12,3 +12,24 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+task createMappingsFile() {
+    File file = new File("mappings/merge_order")
+    FileInputStream stream = new FileInputStream(file)
+    byte[] bytes = new byte[stream.available()]
+    stream.read(bytes)
+    stream.close()
+    String text = new String(bytes).replace("\r", "")
+    FileOutputStream out = new FileOutputStream(new File("mappings/flame_mappings.mappings"))
+    for (String s : text.split("\n")) {
+        System.out.println(s)
+        File file1 = new File(s)
+        FileInputStream stream1 = new FileInputStream("mappings/" + file1)
+        byte[] bytes1 = new byte[stream1.available()]
+        stream1.read(bytes1)
+        stream1.close()
+        out.write(bytes1)
+        out.write("\n".getBytes())
+    }
+    out.close()
+}

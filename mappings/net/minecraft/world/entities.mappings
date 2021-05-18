@@ -1,0 +1,9 @@
+net/minecraft/class_1297 : net/minecraft/world/entities/AbstractEntity
+m-()Lnet/minecraft/class_243; : method_19538->getPos
+m-()Lnet/minecraft/class_243; : method_18798->getMot
+m-()F : method_5751->getStandingEyeHeight
+m-()V : func_187226_a->registerData
+m-(DDD)V : method_18800->setMot
+m-()D : method_23317->getPosX
+m-()D : method_23318->getPosY
+m-()D : method_23321->getPosZ

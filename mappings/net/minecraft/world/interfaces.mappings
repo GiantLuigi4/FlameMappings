@@ -1,0 +1,5 @@
+net/minecraft/class_1922 : net/minecraft/world/interfaces/IBlockContainer
+m-(Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680; : method_8320->getBlockState
+m-(Lnet/minecraft/class_2338;)I : method_8317->getLight
+m-()I : method_8315->getMaxLight
+m-()I : method_8322->getMaxY

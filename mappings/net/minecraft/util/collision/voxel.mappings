@@ -1,0 +1,5 @@
+net/minecraft/class_265 : net/minecraft/util/collision/voxel/VoxelShape
+
+net/minecraft/class_259 : net/minecraft/util/collision/voxel/VoxelShapeHelper
+m-(Lnet/minecraft/class_265;[Lnet/minecraft/class_265;)Lnet/minecraft/class_265; : method_17786->or
+m-(DDDDDD)Lnet/minecraft/class_265; : method_1081->createShape

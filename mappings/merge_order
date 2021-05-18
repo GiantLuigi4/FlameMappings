@@ -1,0 +1,10 @@
+net/minecraft/util/collision/voxel.mappings
+net/minecraft/util/context.mappings
+net/minecraft/util/resource.mappings
+net/minecraft/util/vecmath.mappings
+net/minecraft/world/position.mappings
+net/minecraft/world/blocks.mappings
+net/minecraft/world/interfaces.mappings
+net/minecraft/world/entities.mappings
+net/minecraft/world.mappings
+net/minecraft/registry.mappings

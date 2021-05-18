@@ -1,0 +1,3 @@
+net/minecraft/class_2960 : net/minecraft/util/resource/ResourceName
+m-()Ljava/lang/String; : method_12836->namespace
+m-()Ljava/lang/String; : method_12832->path
